@@ -197,23 +197,26 @@
   .h-\[247px\] {
     height: 247px;
   }
+  .h-\[647px\] {
+    height: 647px;
+  }
   .w-\[200px\] {
     width: 200px;
   }
   .w-\[240px\] {
     width: 240px;
   }
-  .w-\[320px\] {
-    width: 320px;
-  }
-  .w-\[520px\] {
-    width: 520px;
+  .w-\[620px\] {
+    width: 620px;
   }
   .border-collapse {
     border-collapse: collapse;
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .resize {
     resize: both;
@@ -383,9 +386,9 @@
       width: 470px;
     }
   }
-  .lg\:w-\[500px\] {
+  .lg\:w-\[501px\] {
     @media (width >= 64rem) {
-      width: 500px;
+      width: 501px;
     }
   }
   .lg\:flex-nowrap {
@@ -473,13 +476,13 @@
 }
 @layer components {
   .my-container {
-    width: 500px;
+    width: 400px;
     margin: auto;
     @media (width >= 40rem) {
-      width: 100%;
+      width: 600px;
     }
     @media (width >= 48rem) {
-      width: 757px;
+      width: 768px;
     }
     @media (width >= 64rem) {
       width: 1024px;
@@ -549,6 +552,7 @@
     background-image: url('./assets/icon/arrow-icon-right.svg');
   }
   .btn {
+    cursor: pointer;
     border-radius: var(--radius-lg);
     --tw-border-style: none;
     border-style: none;
@@ -569,6 +573,7 @@
     }
   }
   .btn-primary {
+    cursor: pointer;
     background-color: var(--color-blue-400);
     color: var(--color-amber-50);
   }
@@ -587,8 +592,8 @@
     }
   }
   .block-main {
-    height: 247px;
-    width: 320px;
+    height: 600px;
+    width: 620px;
     @media (width >= 48rem) {
       height: 347px;
     }
