@@ -191,14 +191,8 @@
   .flex {
     display: flex;
   }
-  .table {
-    display: table;
-  }
   .h-\[300px\] {
     height: 300px;
-  }
-  .h-\[647px\] {
-    height: 647px;
   }
   .w-\[200px\] {
     width: 200px;
@@ -212,23 +206,11 @@
   .w-\[320px\] {
     width: 320px;
   }
-  .max-w-\[620px\] {
-    max-width: 620px;
-  }
-  .min-w-\[320px\] {
-    min-width: 320px;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -259,10 +241,6 @@
   }
   .gap-15 {
     gap: calc(var(--spacing) * 15);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .bg-amber-200 {
     background-color: var(--color-amber-200);
@@ -343,13 +321,6 @@
   }
   .text-blue-950 {
     color: var(--color-blue-950);
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .hover\:bg-amber-300 {
     &:hover {
@@ -672,19 +643,9 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-translate-x {
   syntax: "*";
@@ -717,9 +678,7 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
-      --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;
