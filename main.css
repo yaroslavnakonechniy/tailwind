@@ -194,8 +194,8 @@
   .table {
     display: table;
   }
-  .h-\[247px\] {
-    height: 247px;
+  .h-\[300px\] {
+    height: 300px;
   }
   .h-\[647px\] {
     height: 647px;
@@ -206,8 +206,17 @@
   .w-\[240px\] {
     width: 240px;
   }
-  .w-\[620px\] {
-    width: 620px;
+  .w-\[300px\] {
+    width: 300px;
+  }
+  .w-\[320px\] {
+    width: 320px;
+  }
+  .max-w-\[620px\] {
+    max-width: 620px;
+  }
+  .min-w-\[320px\] {
+    min-width: 320px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -247,6 +256,9 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-15 {
+    gap: calc(var(--spacing) * 15);
   }
   .border {
     border-style: var(--tw-border-style);
@@ -476,8 +488,10 @@
 }
 @layer components {
   .my-container {
-    width: 400px;
+    width: 280px;
     margin: auto;
+    box-sizing: border-box;
+    padding: calc(var(--spacing) * 2);
     @media (width >= 40rem) {
       width: 600px;
     }
@@ -592,8 +606,8 @@
     }
   }
   .block-main {
-    height: 600px;
-    width: 620px;
+    height: 300px;
+    width: 300px;
     @media (width >= 48rem) {
       height: 347px;
     }

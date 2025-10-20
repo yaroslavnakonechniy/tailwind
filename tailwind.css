@@ -3,8 +3,8 @@
 
 @layer components {
     .my-container{
-        @apply w-[400px] m-auto;
-        @apply sm:w-[600px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1440px]  m-auto;
+        @apply w-[280px] m-auto;
+        @apply sm:w-[600px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1440px]  m-auto p-2 box-border;
     }
     .arrow-menu{
         @apply relative xl:pr-8 lg:pr-4 md:pr-3 pr-10;
@@ -48,7 +48,7 @@
     }
 
     .block-main{
-        @apply xl:w-[448px] xl:h-[547px] lg:w-[500px] lg:h-[447px] md:w-[348px] md:h-[347px] w-[620px] h-[600px];
+        @apply xl:w-[448px] xl:h-[547px] lg:w-[500px] lg:h-[447px] md:w-[348px] md:h-[347px] w-[300px] h-[300px];
     }
 
     .navigation__title{
